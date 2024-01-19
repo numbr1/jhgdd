@@ -1,0 +1,431 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.5930550694465637,
+                0.16990427672863007,
+                -0.12980583310127258,
+                0.7762529850006104
+            ],
+            "translation" : [
+                3.3790512084960938,
+                4.4736223220825195,
+                7.130361557006836
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "AnyConv.com__david-s-cranium",
+            "rotation" : [
+                -0.09706776589155197,
+                0,
+                0,
+                0.9952778816223145
+            ],
+            "scale" : [
+                0.0318717323243618,
+                0.0318717323243618,
+                0.0318717323243618
+            ]
+        },
+        {
+            "name" : "Spot",
+            "rotation" : [
+                0.7020021677017212,
+                0.29643234610557556,
+                0.14628966152668,
+                -0.6308091282844543
+            ],
+            "scale" : [
+                6.729886531829834,
+                6.729886054992676,
+                6.729887008666992
+            ],
+            "translation" : [
+                4.877187728881836,
+                2.5881195068359375,
+                -4.861628532409668
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "AnyConv.com__david-s-cranium.002",
+            "rotation" : [
+                -0.09706776589155197,
+                0,
+                0,
+                0.9952778816223145
+            ],
+            "scale" : [
+                0.0318717323243618,
+                0.0318717323243618,
+                0.0318717323243618
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "AnyConv.com__david-s-craniumAction",
+            "samplers" : [
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 7
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "SpotAction",
+            "samplers" : [
+                {
+                    "input" : 8,
+                    "interpolation" : "STEP",
+                    "output" : 9
+                },
+                {
+                    "input" : 8,
+                    "interpolation" : "STEP",
+                    "output" : 10
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 3,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 3,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "AnyConv.com__david-s-craniumAction.002",
+            "samplers" : [
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 11
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 12
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0.9136363863945007,
+                "roughnessFactor" : 0.27272725105285645
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Default OBJ.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0.9363636374473572,
+                "roughnessFactor" : 0.2136363387107849
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "AnyConv.com__david-s-cranium",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "AnyConv.com__david-s-cranium.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 2,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 73172,
+            "max" : [
+                63,
+                144.76400756835938,
+                77.3489990234375
+            ],
+            "min" : [
+                -37.165000915527344,
+                0,
+                -19.000999450683594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 73172,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 439680,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 73172,
+            "max" : [
+                63,
+                144.76400756835938,
+                77.3489990234375
+            ],
+            "min" : [
+                -37.165000915527344,
+                0,
+                -19.000999450683594
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 73172,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 49,
+            "max" : [
+                2
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 49,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 49,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 1,
+            "max" : [
+                0.041666666666666664
+            ],
+            "min" : [
+                0.041666666666666664
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 1,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 1,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 49,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 49,
+            "type" : "VEC4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 878064,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 878064,
+            "byteOffset" : 878064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1758720,
+            "byteOffset" : 1756128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 878064,
+            "byteOffset" : 3514848
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 878064,
+            "byteOffset" : 4392912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 196,
+            "byteOffset" : 5270976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 588,
+            "byteOffset" : 5271172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 784,
+            "byteOffset" : 5271760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4,
+            "byteOffset" : 5272544
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 5272548
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16,
+            "byteOffset" : 5272560
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 588,
+            "byteOffset" : 5272576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 784,
+            "byteOffset" : 5273164
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5273948,
+            "uri" : "jhgdd.bin"
+        }
+    ]
+}
